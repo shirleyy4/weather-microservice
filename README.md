@@ -11,3 +11,4 @@ How to programmatically request data
 - Once the service is running, the request is made automatically when user load the page, and user's HTTP GET request will be sent to the microservice, which will send request to the weather API using the API key and the zip code, if the response is successful, the service will process the received data and sent it back to the user with the weather information
 
 UML sequence diagram that clearly communicates how to programmatically request and programmatically receive data from the microservice you implemented
+
