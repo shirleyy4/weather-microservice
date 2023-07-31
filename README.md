@@ -12,3 +12,5 @@ How to programmatically request data
 
 UML sequence diagram that clearly communicates how to programmatically request and programmatically receive data from the microservice you implemented
 
+[![WX20230730-225135.png](https://i.postimg.cc/1X09fTqq/WX20230730-225135.png)](https://postimg.cc/bSJX5mLy)
+
