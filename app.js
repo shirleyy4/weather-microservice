@@ -8,7 +8,7 @@ const port = 3000;
 
 const apiKey = 'a5d41176d4b94693979140933232207';
 const weatherApiUrl = `http://api.weatherapi.com/v1/current.json`;
-const city = 'Alexandria';
+const zipcode = '22301'; //Alexandria 
 
 app.get('/weather', async (req, res) => {
   try {
