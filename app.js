@@ -13,7 +13,7 @@ const zipcode = '22301'; //Alexandria
 app.get('/weather', async (req, res) => {
   try {
     // const city = req.params.city;
-    const apiUrl = `${weatherApiUrl}?key=${apiKey}&q=${city}&aqi=no`;
+    const apiUrl = `${weatherApiUrl}?key=${apiKey}&q=${zipcode}&aqi=no`;
 
     const response = await fetch(apiUrl);
     const data = await response.json();
